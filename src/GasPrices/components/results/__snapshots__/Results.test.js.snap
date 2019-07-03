@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results renders without crashing 1`] = `
+<article
+  className="results"
+>
+  <Station />
+</article>
+`;
