@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationControls renders without crashing 1`] = `
+<article
+  className="locationControls"
+>
+  <span>
+    Find Near Me
+  </span>
+  <span>
+    - or -
+  </span>
+  <span>
+    <input
+      placeholder="Enter a zipcode..."
+      readOnly={true}
+      type="text"
+      value="zipcode"
+    />
+    <span>
+      Find
+    </span>
+  </span>
+</article>
+`;
