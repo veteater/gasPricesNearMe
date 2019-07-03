@@ -17,7 +17,8 @@ describe('App', () => {
   */
 
   it('renders without crashing', () => {
-    shallow(<App />);
+    const app = shallow(<App />);
+    expect(app).toMatchSnapshot();
   });
 
   /*

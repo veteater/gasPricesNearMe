@@ -89,6 +89,7 @@
     ]
   },
   "devDependencies": {
+    "enzyme-to-json": "^3.3.5",
     "husky": "^2.7.0"
   },
   "jest": {
@@ -103,6 +104,9 @@
     ],
     "setupFilesAfterEnv": [
       "<rootDir>/src/setupTests.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
     ],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
