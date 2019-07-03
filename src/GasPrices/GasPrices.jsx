@@ -1,7 +1,14 @@
 import React from 'react';
+import Header from './components/header/Header'
+import Results from './components/results/Results';
 
 const GasPrices = () => {
-  return (<div>Gas Prices Near Me</div>);
+  return (
+    <div id="GasPrices">
+      <Header />
+      <Results />
+    </div>
+  );
 };
 
 export default GasPrices;
