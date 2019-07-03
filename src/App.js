@@ -1,9 +1,10 @@
 import React from 'react';
+import GasPrices from './GasPrices/GasPrices';
 
 function App() {
   return (
     <div className="App">
-      Gas Prices Near Me
+      <GasPrices />
     </div>
   );
 }
